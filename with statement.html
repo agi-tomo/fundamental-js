@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>With Statement</title>
+</head>
+<body>
+    <script>
+
+    // pada dasarnya fitur ini cukup menarik namun dapat membuat ambigu pada saat penimpaan data / varibel
+
+    // tanpa with statement
+    const data = {
+        firstName : "Margi",
+        middleName : "Nur",
+        lastName : "Utomo"
+    };
+
+    console.log(data.firstName);
+    console.log(data.middleName);
+    console.log(data.lastName);
+
+    // dengan with Statement
+    with (data){
+        console.log(firstName);
+        console.log(middleName);
+        console.log(lastName);
+    };
+
+    </script>
+</body>
+</html>

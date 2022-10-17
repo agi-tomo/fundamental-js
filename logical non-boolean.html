@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical non-boolean</title>
+</head>
+<body>
+    <script>
+    
+    // or
+    console.log("Hello" || '');
+    console.log(" "|| []);
+    console.log("0" || "NOL");
+    console.log(0 || "NOL");
+    console.log(null || "NULL");
+    console.log(undefined || "undefined");
+
+    const data = {
+        firstName : "Margi",
+        lastName : "Nur Uromo"
+    };
+
+    const name = data.firstName ||  data.lastName;
+    console.log(name);
+    
+    // and
+    console.log("Hello" && '');
+    console.log(" "&& []);
+    console.log("0" && "NOL");
+    console.log(0 && "NOL");
+    console.log(null && "NULL");
+    console.log(undefined && "undefined");
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For of</title>
+</head>
+<body>
+    <script>
+
+    // meliterakan data yang berada pada string property (object) dan index (array)
+    // array
+    const data = ["Margi","Nur","Utomo"];
+
+    for(const nama of data){
+        document.writeln(`${nama}`);
+    }
+
+    // string
+    const kampus = "Politeknik Negeri Samarinda";
+
+    for(const karakter of kampus){
+        document.writeln(`${karakter}`);
+    }
+
+    /*
+    // object
+    const person = {
+        firstName : "Margi",
+        lastName : "Nur Utomo"
+    };
+
+    for(const inside of person){
+        document.writeln(`<p> ${inside} </p>`)
+    }
+    */
+
+    </script>
+</body>
+</html>

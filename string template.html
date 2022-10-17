@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+
+        const firstNama = 'Margi';
+        const middleNama = 'Nur';
+        const lastNama = 'Utomo';
+        const kampus = ` 
+        Politeknik Negeri Samarinda 
+        Kalimantan Timur`;
+
+        const template = `Nama:  ${ firstNama } ${ middleNama } ${ lastNama}`;
+
+        console.log(template);
+
+        let nilai = 85;
+
+        const template2 = `Nilai : ${ nilai }, Lulus : ${ nilai > 70 }`;
+
+        document.writeln(kampus);
+        console.log(template2);
+    </script>
+</body>
+</html>

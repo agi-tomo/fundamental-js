@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        /*let data= {
+            nama : "Margi Nur Utomo",
+            umur : 22
+        };
+
+        const result = "nama" in data;
+        document.writeln(`${result}`); */
+
+        const person = {
+            lastName : undefined
+        }
+
+        result = "lastName" in person;
+        document.writeln(`<p>${result}</p>`);
+
+        const names = [null, "Kurniawan", null];
+        const nameResult = 0 in names;
+        document.writeln(`<p>${nameResult}</p>`);
+
+
+    </script>
+</body>
+</html>
